@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IH:\WORKSPACE\_STM32 /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib /IH:\WORKSPACE /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_boot /IH:\WORKSPACE\_STM32\SpeakerBOX\usb_lib /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis /IH:\WORKSPACE\_STM32\SpeakerBOX /IH:\WORKSPACE\_STM32\SpeakerBOX\USBAudio /IH:\WORKSPACE\_STM32\SpeakerBOX\semihosting /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib\Include">
+      <source file="..\..\..\debug.h" lastModified="1530fc8e750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.h" lastModified="157ec1bb698">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\debug.c" lastModified="1589cfc6c70">
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\string.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.c" lastModified="15821b24ccf">
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h" lastModified="1536acfe9a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="153673774e8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_exti.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.h" lastModified="1536ecbc790">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.c" lastModified="1536ecb8910">
+         <include file="..\..\..\clock.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_flash.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\string.h" lastModified="152eb1ecb90">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\string.c" lastModified="1594183c9e8">
+         <include file="..\..\..\string.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_endp.c" lastModified="159d2610f01">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.c" lastModified="157e94da659">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_conf.h" lastModified="157e9473039">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="153673778d0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_adc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\macros.h" lastModified="153674553b0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\hardware.h" lastModified="1582bc064cf">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_prop.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\hardware.c" lastModified="15941d8bea7">
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h" lastModified="1536737d690">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\hw_config.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_prop.c" lastModified="159d25e703d">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="157ed50e54e">
+      </source>
+      <source file="..\..\..\USBAudio\hw_config.c" lastModified="1591e0be8af">
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h" lastModified="15367380570">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\touch.h" lastModified="1593ce7ae3f">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="153673778d0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_pwr.h" lastModified="157eb7eab1f">
+         <include file="..\..\..\usb_lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_desc.h" lastModified="15922775c7f">
+      </source>
+      <source file="..\..\..\touch.c" lastModified="159d152b249">
+         <include file="..\..\..\touch.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_i2c.c" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_iwdg.c" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_pwr.c" lastModified="157e9339c22">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_desc.c" lastModified="150af409a10">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_pwr.c" lastModified="1536cb20f50">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rtc.c" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\soundcard.h" lastModified="1582b3d3f6a">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_tim.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="157ed50d9b2">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_wwdg.c" lastModified="15367380570">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="157ed50d9b0">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="157ed50e17e">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dac.c" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32l1xx.h" lastModified="1557ec883b8">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_regs.h"/>
+         <include file="..\..\..\usb_lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\misc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.c" lastModified="157e9181000">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.h" lastModified="15588dac541">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="159d20146bc">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\USBAudio\soundcard.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\clock.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\display.h"/>
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.c" lastModified="157d3be4b7a">
+         <include file="..\..\..\i2c_soft.h"/>
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\radio.h" lastModified="15587f2150f">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.h" lastModified="15367377100">
+      </source>
+      <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="1589cfe77b9">
+      </source>
+      <source file="..\..\..\DefaultFonts.c" lastModified="15816bfc392">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\radio.c" lastModified="15588e6a66d">
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="159226fc36a">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\display.h" lastModified="15941762817">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\display.c" lastModified="1594181343f">
+         <include file="..\..\..\display.h"/>
+         <include file="..\..\..\macros.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib /IH:\WORKSPACE\_STM32 /IH:\WORKSPACE /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_boot /IH:\WORKSPACE\_STM32\SpeakerBOX\usb_lib /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis /IH:\WORKSPACE\_STM32\SpeakerBOX\STMTouch_Driver\inc /IH:\WORKSPACE\_STM32\SpeakerBOX /IH:\WORKSPACE\_STM32\SpeakerBOX\USBAudio /IH:\WORKSPACE\_STM32\SpeakerBOX\semihosting /IH:\WORKSPACE\_STM32\SpeakerBOX\STMTouch_Driver /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib\Include">
+      <source file="..\..\..\debug.h" lastModified="1530fc8e750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.h" lastModified="157ec1bb698">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\debug.c" lastModified="1589cfc6c70">
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\string.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.c" lastModified="15821b24ccf">
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h" lastModified="1536acfe9a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_exti.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.h" lastModified="1536ecbc790">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.c" lastModified="1536ecb8910">
+         <include file="..\..\..\clock.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_flash.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\string.h" lastModified="152eb1ecb90">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.c" lastModified="157e94da659">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_conf.h" lastModified="157e9473039">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_adc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\macros.h" lastModified="153674553b0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\hardware.h" lastModified="1582bc064cf">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_prop.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h" lastModified="1536737d690">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\hw_config.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h" lastModified="15367380570">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_i2c.c" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_iwdg.c" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_pwr.c" lastModified="157e9339c22">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_desc.c" lastModified="150af409a10">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_pwr.c" lastModified="1536cb20f50">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rtc.c" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\soundcard.h" lastModified="1582b3d3f6a">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_tim.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="157ed50d9b2">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_wwdg.c" lastModified="15367380570">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="157ed50d9b0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dac.c" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_regs.h"/>
+         <include file="..\..\..\usb_lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\misc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.c" lastModified="157e9181000">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.h" lastModified="15588dac541">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.c" lastModified="157d3be4b7a">
+         <include file="..\..\..\i2c_soft.h"/>
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\radio.h" lastModified="15587f2150f">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.h" lastModified="15367377100">
+      </source>
+      <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="1589cfe77b9">
+      </source>
+      <source file="..\..\..\DefaultFonts.c" lastModified="15816bfc392">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\radio.c" lastModified="15588e6a66d">
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IH:\WORKSPACE\_STM32 /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib /IH:\WORKSPACE /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_boot /IH:\WORKSPACE\_STM32\SpeakerBOX\usb_lib /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis /IH:\WORKSPACE\_STM32\SpeakerBOX /IH:\WORKSPACE\_STM32\SpeakerBOX\USBAudio /IH:\WORKSPACE\_STM32\SpeakerBOX\semihosting /IH:\WORKSPACE\_STM32\SpeakerBOX\STMTouch_Driver /IH:\WORKSPACE\_STM32\SpeakerBOX\cmsis_lib\Include">
+      <source file="..\..\..\debug.h" lastModified="1530fc8e750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.h" lastModified="157ec1bb698">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\debug.c" lastModified="1589cfc6c70">
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\string.h"/>
+      </source>
+      <source file="..\..\..\soundmixer.c" lastModified="15821b24ccf">
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h" lastModified="1536acfe9a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\STMTouch_Driver\tsl_conf_stm32l1xx.h" lastModified="1592298d3c7">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_exti.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="15367379fe0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.h" lastModified="1536ecbc790">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\clock.c" lastModified="1536ecb8910">
+         <include file="..\..\..\clock.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_flash.c" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\string.h" lastModified="152eb1ecb90">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_istr.c" lastModified="157e94da659">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_conf.h" lastModified="157e9473039">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\STMTouch_Driver\tsl_user.h" lastModified="1591dcd7f26">
+         <include file="..\..\..\STMTouch_Driver\tsl_acq_stm32l1xx_sw.h"/>
+      </source>
+      <source file="..\..\..\STMTouch_Driver\tsl_acq_stm32l1xx_sw.h" lastModified="1591d96b45e">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\STMTouch_Driver\tsl_conf_stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\STMTouch_Driver\tsl_user.c" lastModified="15922940a92">
+         <include file="..\..\..\STMTouch_Driver\tsl_user.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\STMTouch_Driver\tsl_acq_stm32l1xx_sw.c" lastModified="15922b940f5">
+         <include file="..\..\..\STMTouch_Driver\tsl_acq_stm32l1xx_sw.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_adc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\macros.h" lastModified="153674553b0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_regs.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\hardware.h" lastModified="1582bc064cf">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_prop.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h" lastModified="1536737d690">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\hw_config.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\hw_config.c" lastModified="1591e0be8af">
+         <include file="..\..\..\USBAudio\usb_istr.h"/>
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_prop.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h" lastModified="15367380570">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_flash.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_desc.h" lastModified="15922775c7f">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_i2c.c" lastModified="1536737b750">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_iwdg.c" lastModified="1536737cec0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_pwr.c" lastModified="157e9339c22">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\usb_desc.c" lastModified="150af409a10">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_pwr.c" lastModified="1536cb20f50">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rtc.c" lastModified="1536737de60">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USBAudio\soundcard.h" lastModified="1582b3d3f6a">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+         <include file="..\..\..\USBAudio\usb_desc.h"/>
+         <include file="..\..\..\USBAudio\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_tim.c" lastModified="1536737f5d0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="157ed50d9b2">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_wwdg.c" lastModified="15367380570">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="157ed50d9b0">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dac.c" lastModified="153673780a0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.h" lastModified="14fe39c75f0">
+         <include file="..\..\..\USBAudio\usb_conf.h"/>
+         <include file="..\..\..\USBAudio\hw_config.h"/>
+         <include file="..\..\..\usb_lib\usb_regs.h"/>
+         <include file="..\..\..\usb_lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\misc.h" lastModified="15367377100">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_lib.c" lastModified="157e9181000">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.h" lastModified="15588dac541">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\i2c_soft.c" lastModified="157d3be4b7a">
+         <include file="..\..\..\i2c_soft.h"/>
+         <include file="..\..\..\hardware.h"/>
+      </source>
+      <source file="..\..\..\radio.h" lastModified="15587f2150f">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_exti.h" lastModified="1536737a7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.h" lastModified="15367377100">
+      </source>
+      <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="1589cfe77b9">
+      </source>
+      <source file="..\..\..\DefaultFonts.c" lastModified="15816bfc392">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="15367377100">
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\radio.c" lastModified="15588e6a66d">
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\soundmixer.h"/>
+         <include file="..\..\..\hardware.h"/>
+         <include file="..\..\..\i2c_soft.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="159226fc36a">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.h" lastModified="14fe39c75f0">
+      </source>
+      <source file="..\..\..\usb_lib\usb_core.c" lastModified="14fe39c75f0">
+         <include file="..\..\..\usb_lib\usb_lib.h"/>
+      </source>
+   </includePath>
+</dependencies>
